@@ -1,0 +1,25 @@
+const books = {
+    "9780140449136": {
+        title: "The Odyssey",
+        author: "Homer",
+        reviews: {
+            "user1": "A classic and timeless story."
+        }
+    },
+    "9780743273565": {
+        title: "The Great Gatsby",
+        author: "F. Scott Fitzgerald",
+        reviews: {
+            "user2": "An interesting story about wealth and dreams."
+        }
+    },
+    "9780061120084": {
+        title: "To Kill a Mockingbird",
+        author: "Harper Lee",
+        reviews: {
+            "user3": "A powerful and meaningful book."
+        }
+    }
+};
+
+module.exports = books;
